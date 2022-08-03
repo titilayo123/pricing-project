@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* section A */
+.section-a {
+	background-color: rgb(32, 110, 233);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	color: whitesmoke;
+	font-size: 17px;
+}
+
+/* section b-- */
+.section-b {
+        
+        text-align: center;
+        margin-top: 25px;
+        padding: 10px;
+        margin-bottom: 70px;
+        
+}
+
+.section-b-heading-a {
+	font-size: 50px;
+	color: rgb(29, 29, 29);
+}
+.section-b-heading-b {
+	margin-top: 15px;
+	font-size: 20px;
+	color: rgb(83, 83, 83);
+}
+
+/* section-c-- */
+.section-c-container{
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+    border: 1px solid blue; 
+	padding: 20px;
+	justify-content: center;
+	text-align: center;
+}
+
+.section-c-button-a{
+    background-color: rgb(67, 130, 233);
+    color: white;
+    border-radius: 2px;
+    border: none;
+    border-width: 20px;
+    padding: 10px;
+	
+}
+
+.section-c-div4-icons{
+	display: flex;
+	align-items: center;
+	gap: 5px; 
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.section-c-div4-icons img{
+	width: 15px;
+	justify-content: center;
+}
+
+
+/* section d--- */
+.section-d{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+	margin-top: 70px;
+	padding: 20px;
+}
+
+.section-d-box-1 {
+	border: 1px solid black;
+	padding: 20px;
+	text-align: center;
+}
+
+.section-d-box-1-p{
+	font-size: 10px;
+	text-align-last: center;
+}
+
+
+.btn-1{
+	font-size: 20px;
+	padding: 10px;
+	border-radius: none;
+}
+
+/* section e */
+.section-e {
+	max-width: 900px;
+	margin: 70px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	gap: 50px;
+}
+
+.section-e-image-container {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 10px;
+	padding: 30px;
+}
+
+.section-f{
+	background-color: rgb(202, 202, 216);
+}
+
+/* section g-- */
+.section-g-container{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0px;
+	line-height: 1.7rem;
+	margin-top: 70px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-top: 1px solid rgb(175, 175, 175);
+}
+.section-g-container >div{
+	padding: 20px;
+}
+
+.section-g-container h4 {
+	margin-bottom: 12px;
+	font-size: 20px;
+}
+
+.section-g-container p{
+	margin-bottom: 8px;
+	font-size: 18px;
+	color: gray;
+}
+
+.section-g-div4 {
+	border-left: 1px solid rgb(175, 175, 175);
+}
+
+.section-g-div4-icons{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+
+}
+
+.section-g-div4-icons img{
+	width: 30px;
+
+}
+.section-g-div4-icons p{
+	margin-top: 10px;
+}
+
+
